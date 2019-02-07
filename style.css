@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(124, 96, 96);
+}
+
+section {
+    max-width: 800px;
+    max-height: 1000px;
+    border: 2px solid black;
+    margin: 15px auto;
+    background-color: brown;
+}
+
+
+
+h1{
+    padding: 10px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+#flag {
+    height: 125px;
+    width: 200px;
+    margin: 50px auto;
+}
+
+#flag img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#answers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.answer {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#answers .green{
+    background-color: green;
+}
+
+#answers .red{
+    background-color: red;
+}
+
+#info, #result{
+    min-height: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#round, #score {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    padding: 15px;
+    top:0;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgb(165, 68, 68);
+}
+
+#result {
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    max-width: 600px;
+    height: auto;
+    padding: 10px;
+    margin: 0px auto;
+}
